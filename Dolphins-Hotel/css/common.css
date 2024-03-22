@@ -1,0 +1,40 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+.h-font{
+    font-family:"Inter", sans-serif;
+}
+.custom-bg{
+    background:#389738;
+    border: 1px solid #389738;
+}
+.custom-bg:hover{
+    background:#228b22;
+    border: 1px solid #228b22;
+}
+.color-blue{
+    color:#03254c;
+}
+.bg-dw{
+    background:rgb(239, 239, 239);
+}
+.bg-infog{
+    background:#cfd8dc;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 50%;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
