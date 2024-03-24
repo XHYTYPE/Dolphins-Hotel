@@ -1,6 +1,7 @@
 :root{
     --teal: #389738;
     --teal_hover: #228b22;
+    --blue: #03254c;
 }
 
 *{
@@ -18,7 +19,7 @@
     border: 1px solid var(--teal_hover);
 }
 .color-blue{
-    color:#03254c;
+    color: var(--blue);
 }
 .bg-dw{
     background: RGB(240, 248, 255);

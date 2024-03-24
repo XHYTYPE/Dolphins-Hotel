@@ -144,7 +144,16 @@
                                     Desk
                                 </span>
                             </div>
-                            <div class="facilities mb-4">
+                            <div class="guest mb-4">
+                                <h6 class="mb-1">Guests</h6>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    2 Adults
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    1 Children
+                                </span>
+                            </div>
+                            <div class="rating mb-4">
                                 <h6 class="mb-1">Rating</h6>
                                 <i class="bi bi-star-fill text-warning"></i>
                                 <i class="bi bi-star-fill text-warning"></i>
@@ -203,7 +212,16 @@
                                     Desk
                                 </span>
                             </div>
-                            <div class="facilities mb-4">
+                            <div class="guest mb-4">
+                                <h6 class="mb-1">Guests</h6>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    3 Adults
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    2 Children
+                                </span>
+                            </div>
+                            <div class="rating mb-4">
                                 <h6 class="mb-1">Rating</h6>
                                 <i class="bi bi-star-fill text-warning"></i>
                                 <i class="bi bi-star-fill text-warning"></i>
@@ -258,7 +276,16 @@
                                     Desk
                                 </span>
                             </div>
-                            <div class="facilities mb-4">
+                            <div class="guest mb-4">
+                                <h6 class="mb-1">Guests</h6>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    4 Adults
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    4 Children
+                                </span>
+                            </div>
+                            <div class="rating mb-4">
                                 <h6 class="mb-1">Rating</h6>
                                 <i class="bi bi-star-fill text-warning"></i>
                                 <i class="bi bi-star-fill text-warning"></i>
@@ -320,13 +347,22 @@
                                     Desk
                                 </span>
                             </div>
-                            <div class="facilities mb-4">
+                            <div class="guest mb-4">
+                                <h6 class="mb-1">Guests</h6>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    5 Adults
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    4 Children
+                                </span>
+                            </div>
+                            <div class="rating mb-4">
                                 <h6 class="mb-1">Rating</h6>
                                 <i class="bi bi-star-fill text-warning"></i>
                                 <i class="bi bi-star-fill text-warning"></i>
                                 <i class="bi bi-star-fill text-warning"></i>
                                 <i class="bi bi-star-fill text-warning"></i>
-                                <i class="bi bi-star text-warning"></i>
+                                <i class="bi bi-star-half text-warning"></i>
                             </div>
                             <div class="d-flex justify-content-evenly mb-2">
                                 <a href="#" class="btn btn-sm text-white custom-bg shadow-none">Book Now</a>
@@ -384,7 +420,16 @@
                                     Desk
                                 </span>
                             </div>
-                            <div class="facilities mb-4">
+                            <div class="guest mb-4">
+                                <h6 class="mb-1">Guests</h6>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    6 Adults
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    6 Children
+                                </span>
+                            </div>
+                            <div class="rating mb-4">
                                 <h6 class="mb-1">Rating</h6>
                                 <i class="bi bi-star-fill text-warning"></i>
                                 <i class="bi bi-star-fill text-warning"></i>
@@ -451,13 +496,22 @@
                                     Desk
                                 </span>
                             </div>
-                            <div class="facilities mb-4">
+                            <div class="guest mb-4">
+                                <h6 class="mb-1">Guests</h6>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    10 Adults
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    5 Children
+                                </span>
+                            </div>
+                            <div class="rating mb-4">
                                 <h6 class="mb-1">Rating</h6>
                                 <i class="bi bi-star-fill text-warning"></i>
                                 <i class="bi bi-star-fill text-warning"></i>
                                 <i class="bi bi-star-fill text-warning"></i>
                                 <i class="bi bi-star-fill text-warning"></i>
-                                <i class="bi bi-star text-warning"></i>
+                                <i class="bi bi-star-fill text-warning"></i>
                             </div>
                             <div class="d-flex justify-content-evenly mb-2">
                                 <a href="#" class="btn btn-sm text-white custom-bg shadow-none">Book Now</a>
@@ -523,7 +577,7 @@
                 </div>
             </div>
             <div class="col-lg-12 text-center mt-5">
-                <a href="#" class="btn btn-sm btn-outline-primary rounded-0 fw-bold shadow-none">More Facilities >>></a>
+                <a href="facilities.php" class="btn btn-sm btn-outline-primary rounded-0 fw-bold shadow-none">More Facilities >>></a>
             </div>
         </div>
         
@@ -664,8 +718,34 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <!-- JS Swipersjs -->
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-        
-        <?php include('js/script.js'); ?>
+        <script>
+            var swiper = new Swiper(".swiper-content", {
+            spaceBetween: 30,
+            effect: "fade",
+            loop: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+        var swiper = new Swiper(".swiper-testimonials", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            loop: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });      
+        </script>
   
     </body>
 
