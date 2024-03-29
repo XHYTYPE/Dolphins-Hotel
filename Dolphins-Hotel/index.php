@@ -143,6 +143,15 @@
                                 <span class="badge rounded-pill text-dark bg-infog text-wrap">
                                     Desk
                                 </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Pool
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Spa
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Caffee
+                                </span>
                             </div>
                             <div class="guest mb-4">
                                 <h6 class="mb-1">Guests</h6>
@@ -211,6 +220,18 @@
                                 <span class="badge rounded-pill text-dark bg-infog text-wrap">
                                     Desk
                                 </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Pool
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Spa
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Room Service
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Caffee
+                                </span>
                             </div>
                             <div class="guest mb-4">
                                 <h6 class="mb-1">Guests</h6>
@@ -274,6 +295,27 @@
                                 </span>
                                 <span class="badge rounded-pill text-dark bg-infog text-wrap">
                                     Desk
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Pool
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Spa
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Room Service
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Gym
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Pool
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Bathtub
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Caffee
                                 </span>
                             </div>
                             <div class="guest mb-4">
@@ -345,6 +387,30 @@
                                 </span>
                                 <span class="badge rounded-pill text-dark bg-infog text-wrap">
                                     Desk
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Pool
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Spa
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Room Service
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Gym
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Pool
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Bathtub
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Bar
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Caffee
                                 </span>
                             </div>
                             <div class="guest mb-4">
@@ -419,6 +485,34 @@
                                 <span class="badge rounded-pill text-dark bg-infog text-wrap">
                                     Desk
                                 </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Pool
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Spa
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Room Service
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Gym
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Pool
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Bathtub
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Bar
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Free Breakfast
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Caffee
+                                </span>
+
                             </div>
                             <div class="guest mb-4">
                                 <h6 class="mb-1">Guests</h6>
@@ -494,6 +588,33 @@
                                 </span>
                                 <span class="badge rounded-pill text-dark bg-infog text-wrap">
                                     Desk
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Pool
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Spa
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Room Service
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Gym
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Pool
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Bathtub
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Bar
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Free Breakfast
+                                </span>
+                                <span class="badge rounded-pill text-dark bg-infog text-wrap">
+                                    Caffee
                                 </span>
                             </div>
                             <div class="guest mb-4">
