@@ -1,7 +1,6 @@
 <?php
     require('inc/essentials.php');
     adminLogin();
-    session_regenerate_id(true);
 ?>
 
 <!DOCTYPE html>
@@ -11,20 +10,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <?php require('inc/links.php'); ?>
+    <style>
+        #dashboard-menu{
+            position: fixed;
+            height: 100%;
+        }
+        @media screen and (max-width: 991px){
+            #dashboard-menu{
+                height: auto;
+                width: 100%;
+            }
+            #main-content{
+                margin-top:60px;
+            }
+        }
+    </style>
+
 </head>
 <body class = "bg-dw">
     
-    <div class="container-fluid text-light p-3 d-flex align-items-center justify-content-between" style="background:#03254c">
-        <h3 class="mb-0">ADMIN DASHBOARD</h3>
-            <a href="logout.php" >
-             <i class="fa fa-sign-out me-2" style="color: white; font-size:40px;"></i>
-            </a>
-            
-            
-        
+   <?php include('inc/header.php'); ?>
+
+    <div class="container-fluid" id="main-content">
+        <div class="row">
+            <div class="col-lg-10 ms-auto p-4 overflow-hidden">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, et iure. Deserunt nemo dolore quia non repellendus temporibus provident mollitia consectetur sapiente, vero doloribus ducimus facere, velit tenetur reprehenderit error!
+            </div>
+        </div>
     </div>
-
-
+    
     <?php require('inc/scripts.php'); ?>    
 </body>
 </html>
